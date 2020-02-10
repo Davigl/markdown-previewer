@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="css/main.css"
+    />
+    <title>Markdown Previewer</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="row" id="content">
+        <div class="col-md-6 my-auto" id="block-one">
+          <header class="header border">
+            <div class="button" id="button-1">
+              <button class="button-editor"></button>
+            </div>
+            <div class="title">
+              <label>🖋️ Markdown Editor</label>
+            </div>
+          </header>
+
+          <textarea id="editor" type="text">
+# Welcome to my Markdown Previewer!
+
+## This is a sub-heading...
+### And here's some other cool stuff:
+  
+Heres some code, `<div></div>`, between 2 backticks.
+
+```
+// this is multi-line code:
+
+function anotherExample(firstLine, lastLine) {
+  if (firstLine == '```' && lastLine == '```') {
+    return multiLineCode;
+  }
+}
+```
+  
+You can also make text **bold**... whoa!
+Or _italic_.
+Or... wait for it... **_both!_**
+And feel free to go crazy ~~crossing stuff out~~.
+
+There's also [links](https://www.freecodecamp.com), and
+> Block Quotes!
+
+And if you want to get really crazy, even tables:
+
+Wild Header | Crazy Header | Another Header?
+------------ | ------------- | ------------- 
+Your content can | be here, and it | can be here....
+And here. | Okay. | I think we get it.
+
+- And of course there are lists.
+  - Some are bulleted.
+    - With different indentation levels.
+        - That look like this.
+
+
+1. And there are numbererd lists too.
+1. Use just 1s if you want! 
+1. But the list goes on...
+- Even if you use dashes or asterisks.
+* And last but not least, let's not forget embedded images:
+
+![React Logo w/ Text](https://goo.gl/Umyytc)
+          </textarea>
+        </div>
+        <div class="col-md-6 my-auto" id="block-two">
+          <div class="card">
+            <header class="border header">
+              <div class="button" id="button-2">
+                <button class="button-editor"></button>
+              </div>
+              <div class="title">
+                <label>📄 Markdown Previewer</label>
+              </div>
+            </header>
+            <div class="card-body overflow-auto" id="preview"> </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script
+      src="js/main.js"
+    ></script>
+  </body>
+</html>
