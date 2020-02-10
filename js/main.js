@@ -1,3 +1,5 @@
+// setting marked librarie options.
+
 marked.setOptions({
   gfm: true,
   highlight: false,
@@ -14,13 +16,22 @@ $(document).ready(() => {
   let editor = $("#editor");
   let preview = $("#preview");
 
+  /**
+   * Setting preview with editor values.
+   */
+
   const setPreview = () => {
     let value = editor.val();
 
     preview.html(marked(value));
   };
 
-  const checkSize = id => {
+  /**
+   * Maximize and minimize previewer/editor.
+   * @param {string} id
+   */
+
+  const changeSize = id => {
     let button = $(id);
 
     if (button.attr("class").includes("col-md-6")) {
@@ -30,17 +41,21 @@ $(document).ready(() => {
     }
   };
 
+  /**
+   * Render method.
+   */
+
   const render = () => {
     $("#editor").on("input", () => {
       setPreview();
     });
 
     $("#button-1").on("click", () => {
-      checkSize("#block-one");
+      changeSize("#block-one");
     });
 
     $("#button-2").on("click", () => {
-      checkSize("#block-two");
+      changeSize("#block-two");
     });
   };
 
