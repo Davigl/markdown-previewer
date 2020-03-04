@@ -6,9 +6,13 @@
 
 ### How does it looks? :thinking:
 
+<div align="center>
+
 ![](https://i.imgur.com/mwO5ZMd.png)
 
 *Drum Machine*
+
+</div>
 
 ### User Stories :ok_woman:
 
