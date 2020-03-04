@@ -6,11 +6,7 @@
 
 ### How does it looks? :thinking:
 
-<div align="center>
-
 ![](https://i.imgur.com/mwO5ZMd.png)
-
-</div>
 
 ### User Stories :ok_woman:
 
