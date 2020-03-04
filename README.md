@@ -4,8 +4,10 @@
 
 ***
 
-<h2>
-How does it looks? :thinking:
-</h2>
+**How does it looks? :thinking:
 
 ![](https://i.imgur.com/mwO5ZMd.png)
+
+**License
+
+Copyright © 2020, [Davi Guimarães](https://github.com/davigl).
