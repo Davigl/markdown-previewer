@@ -10,8 +10,6 @@
 
 ![](https://i.imgur.com/mwO5ZMd.png)
 
-*Drum Machine*
-
 </div>
 
 ### User Stories :ok_woman:
