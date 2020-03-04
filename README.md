@@ -8,7 +8,9 @@
 
 ![](https://i.imgur.com/mwO5ZMd.png)
 
-### User Stories :person:
+*Drum Machine*
+
+### User Stories :ok_woman:
 
 - [x] <strong>User Story #1:</strong> I can see a <code>textarea</code> element with a corresponding <code>id="editor"</code>.   
 - [x] <strong>User Story #2:</strong> I can see an element with a corresponding <code>id="preview"</code>.   
