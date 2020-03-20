@@ -30,17 +30,17 @@ button:focus {
   left: 20px;
 }
 
-#preview {
-  max-height: 500px;
-  font-family: monospace;
-}
-
 .button-editor {
   background-color: #f4c2c1;
   border-radius: 50%;
   height: 15px;
   width: 15px;
   outline: none;
+}
+
+#preview {
+  max-height: 500px;
+  font-family: monospace;
 }
 
 #block-one {
